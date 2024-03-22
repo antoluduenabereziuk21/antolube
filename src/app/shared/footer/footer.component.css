@@ -1,0 +1,11 @@
+.footer{
+    margin-top: 50px;
+}
+.btn:hover {
+    background-color: orange; /* Cambia el color de fondo a amarillo al pasar el cursor */
+    color: #000;
+}
+.icons a{
+    margin-top: 20px;
+    border-radius: 100%;
+}

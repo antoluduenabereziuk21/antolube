@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="text-center color-white skill">
+        <h1>Habilidades</h1>
+    </div>
+    <div class="row">
+        <div *ngFor="let skill of skills" class="col">
+            <div class="card" >
+                <img [src]="skill.image" class="card-img-top" alt="banner app">
+                <div class="card-body">
+                    <p>{{skill.name}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

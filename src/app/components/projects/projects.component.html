@@ -1,0 +1,125 @@
+<!-- <div class="container container">
+    <div class="text-center color-white project">
+        <h1>Proyectos</h1>
+        <p *ngIf="!isInHome">
+            Explora mi mundo de innovación digital, donde cada proyecto es una pieza única que fusiona tecnología y
+            creatividad para transformar desafíos en soluciones impactantes. ¡Bienvenido a mi portafolio de creaciones,
+            donde cada línea de código cuenta una historia de éxito!<br />
+            <strong>Haz clic sobre las imágenes</strong>
+        </p>
+        <ng-template #homeContent>
+
+        </ng-template>
+    </div>
+     <div class="row text-center">
+        <div *ngFor="let project of projects" class="col-sm-4">
+            <a href="#" (click)="showProjectModal(project)"></a>
+            <div class="card" style="width: 18rem; margin: 25px auto;">
+                <a [href]="project.url">
+                    <img [src]="project.banner" class="card-img-top image-card" alt="banner app">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">{{project.title}}</h5>
+                    <p class="card-text">{{project.short_description}}</p>
+
+                </div>
+                <div class="card-footer d-flex">
+                    <img class="rounded-circle  me-3 fit-cover" width="50" height="50"
+                        src="../../../assets/antonio.jpeg">
+                    <div>
+                        <p class="fw-bold mb-0">Antonio Ludueña Bereziuk</p>
+                        <p class="mb-0">Dev Backend</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="row text-center">
+        <div *ngFor="let project of projects" class="col-sm-4">
+            <a href="#" (click)="showProjectModal($event, project)">
+                <div class="card" style="width: 18rem; margin: 25px auto;">
+                    <a [href]="project.url">  Este enlace se puede eliminar si no es necesario 
+                        <img [src]="project.banner" class="card-img-top image-card" alt="banner app">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">{{project.title}}</h5>
+                        <p class="card-text">{{project.short_description}}</p>
+                    </div>
+                    <div class="card-footer d-flex">
+                        <img class="rounded-circle me-3 fit-cover" width="50" height="50"
+                            src="../../../assets/antonio.jpeg">
+                        <div>
+                            <p class="fw-bold mb-0">Antonio Ludueña Bereziuk</p>
+                            <p class="mb-0">Dev Backend</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    Modal
+    <div class="modal" tabindex="-1" role="dialog" *ngIf="selectedProject">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">{{ selectedProject.title }}</h5>
+                    <button type="button" class="btn-close" aria-label="Close" (click)="closeProjectModal()"></button>
+                </div>
+                <div class="modal-body">
+                    <p>{{ selectedProject.description }}</p>
+                    Más información del proyecto 
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="container container">
+    <div class="text-center color-white project">
+        <h1>Proyectos</h1>
+        <p *ngIf="!isInHome">
+            Explora mi mundo de innovación digital, donde cada proyecto es una pieza única que fusiona tecnología y
+            creatividad para transformar desafíos en soluciones impactantes. ¡Bienvenido a mi portafolio de creaciones,
+            donde cada línea de código cuenta una historia de éxito!<br />
+            <strong>Haz clic sobre las imágenes</strong>
+        </p>
+    </div>
+
+    <div class="row text-center">
+        <div *ngFor="let project of projects" class="col-sm-4">
+            <a [routerLink]="['/projects',project.id]">
+                <div class="card" style="width: 18rem; margin: 25px auto;">
+                        <img [src]="project.banner" class="card-img-top image-card" alt="banner app">
+                    <div class="card-body">
+                        <h5 class="card-title">{{project.title}}</h5>
+                        <p class="card-text">{{project.short_description}}</p>
+                    </div>
+                    <div class="card-footer d-flex">
+                        <img class="rounded-circle me-3 fit-cover" width="50" height="50" src="../../../assets/antonio.jpeg">
+                        <div>
+                            <p class="fw-bold mb-0">Antonio Ludueña Bereziuk</p>
+                            <p class="mb-0">Dev Backend</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal" tabindex="-1" role="dialog" *ngIf="selectedProject">
+    <div class="modal-dialog modal-fullscreen-sm-down" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">{{ selectedProject.title }}</h5>
+                <button type="button" class="btn-close" aria-label="Close" (click)="closeProjectModal()"></button>
+            </div>
+            <div class="modal-body">
+                <p>{{ selectedProject.description }}</p>
+                <!-- Más información del proyecto -->
+            </div>
+        </div>
+    </div>
+</div> 

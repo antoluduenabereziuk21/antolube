@@ -1,0 +1,20 @@
+.navbar{
+    background-color:black!important;
+  }
+  .navbar-nav {
+    margin-left: auto; /* Mueve los elementos al final del navbar */
+  }
+
+  .offcanvas{
+    background-color:orange !important;
+    font-size:1.2em;
+    align-items:center;
+  }
+  
+  .nav-item :hover{
+      cursor:pointer;
+      background-color: orange;
+      color: #000;
+    
+  }
+ 

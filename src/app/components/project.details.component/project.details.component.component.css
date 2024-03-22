@@ -1,0 +1,15 @@
+.container{
+    padding: 50px;
+    color:rgba(255, 255, 255, 0.904);
+}
+.heading{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px auto;
+}
+.description{
+    font-size: 18px; 
+    line-height: 1.6;
+}

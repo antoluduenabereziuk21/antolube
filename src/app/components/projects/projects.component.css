@@ -1,0 +1,41 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+}
+
+.card{
+    background-color: black;
+    height: 25rem;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    color:white;
+    border-color: aliceblue;
+}
+.card:hover{
+    transform: all 300ms;
+    transform: scale(1.15);
+}
+.project {
+    margin: 25px auto;
+}
+
+.project p{
+    font-size: 18px; 
+    line-height: 1.6;
+}
+.image-card{
+    width: 0 auto;
+    height: 0 auto;
+}
+.modal{
+    z-index: 15;
+}
+
+a{
+    text-decoration: none;
+}
+
+  

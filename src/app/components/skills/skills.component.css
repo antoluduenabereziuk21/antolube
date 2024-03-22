@@ -1,0 +1,31 @@
+.skill{
+    margin:25px auto;
+}
+.container{
+    color:white;
+    margin: 25px auto ;
+}
+ 
+.card{
+    background-color:black;
+    margin:0 5px 5px 5px;
+    width: 7rem;
+    /* max-width: 900px; */
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.card img{
+    width: 7em;
+    height: 7em;
+}
+.card-body {
+    justify-content: center;
+    height: 3em; /* Altura fija para el cuerpo de la tarjeta */
+    overflow: hidden; /* Ocultar el contenido si es más largo */
+    text-overflow: ellipsis; /* Agregar puntos suspensivos para indicar contenido truncado */
+}
+.card:hover{
+    transform: all 300ms;
+    transform: scale(1.15);
+}

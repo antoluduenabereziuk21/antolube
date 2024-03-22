@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    padding: 20px;
+    color:white;
+  }
+.avatar{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Aplica un borde redondeado al avatar */
+    margin-bottom: 20px; /* Agrega espacio debajo del avatar */
+
+}
+.about_me p{
+    font-size: 20px; 
+      line-height: 1.6;
+  }

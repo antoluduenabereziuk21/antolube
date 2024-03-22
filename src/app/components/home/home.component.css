@@ -1,0 +1,60 @@
+.home{
+  padding: 15px 0;
+  
+}
+.avatar{
+    
+        width: 150px;
+        height: 150px;
+        /*background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+        border-radius: 100px;
+        margin-bottom: 30px; */
+        border-radius: 50%; /* Aplica un borde redondeado al avatar */
+        margin-bottom: 20px; /* Agrega espacio debajo del avatar */
+    
+}
+/* .avatar:hover{
+  transition: all 300ms;
+  transform: scale3d(2.30,2.30,2.30);
+  transform: scale(1.5);
+
+} */
+.about_me{
+  margin-top: 20px; 
+  text-align: center;
+    /* font-size: 1.5em;
+    font-weight: 300;
+    margin-top:30px;
+    margin-bottom: 30px; */
+}
+.about_me p{
+  font-size: 18px; 
+    line-height: 1.6;
+}
+.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Añade un fondo semi-transparente a los contenedores */
+  padding: 20px;
+  border-radius: 10px; /* Agrega bordes redondeados a los contenedores */
+  color:white;
+  /* color:#f0c506; */
+}
+
+.btn {
+ /* background-color: blue;  Color de fondo inicial 
+  color: white;  Color del texto 
+  border: none; /* Elimina el borde */
+  padding: 5px 5px; /* Relleno del botón */
+  border-radius: 5px; /* Añade bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn:hover {
+  background-color: orange; /* Cambia el color de fondo a amarillo al pasar el cursor */
+  color: #000;
+}
+
