@@ -27,7 +27,7 @@ export class ProjectService {
             'JWT',
             'Firestorage'],
             technologies_frontend: ['Angular', 'HTML', 'CSS', 'Bootstrap','Deploy:Netlify'],
-            banner: '../../assets/banners/Banner.png',
+            banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/banner_TBDEQD2tS.png',
             url: 'https://cashier-app-23.netlify.app/login',
             url_video:'https://www.youtube.com/watch?v=HhMpTuKcwdA',
             url_github:'https://github.com/antoluduenabereziuk21/CashierApp'
@@ -46,7 +46,7 @@ export class ProjectService {
                 'Swagger'
             ],
             technologies_frontend: ['Next.js', 'HTML', 'CSS', 'Bootstrap'],
-            banner: '../../assets/banners/appTrack.png',
+            banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/appTrack_JkIfEPfW2.png',
             url: 'https://s12-15-t-java-react-ol6n.vercel.app/',
             url_video: '',
             url_github:'https://github.com/antoluduenabereziuk21/Track-app-React-Java'
@@ -59,7 +59,7 @@ export class ProjectService {
 
             technologies_frontend: ['HTML', 'CSS','JS', 'Bootstrap'],
             technologies_backend: [],
-            banner: '../../assets/banners/appNumeroSecreto.png',
+            banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/appnumerosecreto_32dvhbA2l.png',
             url: 'https://antoluduenabereziuk21.github.io/JuegoNumeroSecreto/',
             url_video:'',
             url_github:'https://github.com/antoluduenabereziuk21/JuegoNumeroSecreto'
@@ -77,7 +77,7 @@ export class ProjectService {
                 "Netbeans",
                 "VScode"],
             technologies_frontend: ["Thymeleaf",'Bootstrap'],
-            banner: '../../assets/banners/mediya.png',
+            banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/mediya_GUH9eMcvg.png',
             url: '',
             url_video:'',
             url_github:'https://github.com/antoluduenabereziuk21/AppServiciosDeSalud'
@@ -101,7 +101,7 @@ export class ProjectService {
             'Whiskeysockets/Baileys',
             'NodeJs 18',
             'WhatsApp Business'],
-            banner: '../../assets/banners/wot.png',
+            banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/wot_UlNVjLE1J.png',
             url: 'https://wa.me/5493517620799',
             url_video:'',
             url_github:''

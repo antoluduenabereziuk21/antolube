@@ -10,76 +10,76 @@ export class SkillService {
     skills:Skill[] = [
         {
             name:'Java',
-            image:'../../assets/logos/java2.png'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/java2_u4LyWTUi8.png'
         },
         {
             name:'Spring',
-            image:'../../assets/logos/spring-boot.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/springboot_nlBd8gsVf.svg'
         },
         {
             name:'Docker',
-            image:'../../assets/logos/docker.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/docker_hCTGdkmNs.svg'
         },
         {
             name:'Maven',
-            image:'../../assets/logos/maven-svg.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/mavensvg_U3TgcO2u2.svg'
         },
         {
             name:'Git',
-            image:'../../assets/logos/git.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/git_OpteeH0yd.svg'
         },
         {
             name:'PostgreSQL',
-            image:'../../assets/logos/postgresql.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/postgresql_0JcHaa4YN.svg'
         },
         {
             name:'MySQL',
-            image:'../../assets/logos/mysql.png'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/mysql_G69su1Fqi.png'
         },
         {
             name:'Postman',
-            image:'../../assets/logos/postman.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/postman_EOu3oQ9mSt.svg'
         },
         {
             name:'Swagger',
-            image:'../../assets/logos/swagger.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/swagger_uy8pANw1z.svg'
         },
         {
             name:'JWT',
-            image:'../../assets/logos/jwt.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/jwt_PQ_au4ipB.svg'
         },
         {
             name:'NodeJS',
-            image:'../../assets/logos/nodejs.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/nodejs_x14ktowZ-.svg'
         },
         {
             name:'JavaScript',
-            image:'../../assets/logos/js.png'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/js_BbmIT4xMN.png'
         },
         {
             name:'TypeScript',
-            image:'../../assets/logos/typescript.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/typescript_CR_MjmVhx.svg'
         },
         {
             name:'WAWebSockets',
-            image:'../../assets/logos/WAWebSockets.png'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/WAWebSockets_7VS6_3hZF.png'
         },
         {
             name:'Angular',
-            image:'../../assets/logos/angular.png'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/angular_asUReQH_z.png'
         },
         {
             name:'VsCode',
-            image:'../../assets/logos/vscode.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/vscode_b_cluOYnq.svg'
         },{
             name:'ApacheNetBeans',
-            image:'../../assets/logos/netbeans.png'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/netbeans_Z4aj_toJww.png'
         },{
             name:'IntelliJ',
-            image:'../../assets/logos/intellijidea.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/intellijidea_9cmiwlWso.svg'
         },{
             name:'Linux',
-            image:'../../assets/logos/linux.svg'
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/linux_baqvd5R2U.svg?updatedAt=1711132833663'
         },
 
 
