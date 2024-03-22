@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
-import { MaterialModule } from './material/material.module';
 import { ComponentsModule } from './components/components.module';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -19,16 +18,13 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
-    MaterialModule,
+
     ComponentsModule,
     SharedModule,
     NgbModule,
     AppRoutingModule,
   ],
-  exports:[
-    MaterialModule,
-   
-  ],
+  exports:[],
   providers: [
     provideAnimationsAsync()
   ],

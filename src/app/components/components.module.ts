@@ -4,7 +4,6 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
-import { MaterialModule } from '../material/material.module';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { ProjectDetailsComponentComponent } from './project.details.component/project.details.component.component';
@@ -23,7 +22,6 @@ import { ProjectDetailsComponentComponent } from './project.details.component/pr
   ],
   imports: [
     CommonModule,
-    MaterialModule,
     SharedModule,
     RouterModule
   ]
