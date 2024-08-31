@@ -96,7 +96,8 @@ export class ProjectService {
             'Lombok',
             'Maven',
             'PostgreSQL',
-            'JWT'],
+            'JWT'
+            ],
             technologies_frontend: [
             'Whiskeysockets/Baileys',
             'NodeJs 18',
