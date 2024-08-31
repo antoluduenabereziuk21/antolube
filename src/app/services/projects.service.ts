@@ -50,7 +50,7 @@ export class ProjectService {
             url: 'https://s12-15-t-java-react-ol6n.vercel.app/',
             url_video: '',
             url_github:'https://github.com/antoluduenabereziuk21/Track-app-React-Java'
-        },        
+        },
         {
             id: 3,
             title: 'Desafío del Secreto Numérico: ¡Adivina en 3!',
@@ -69,7 +69,7 @@ export class ProjectService {
             title: 'Medi Ya',
             short_description: 'Somos la Solución Integral para la Gestión de Citas Médicas y Historias Clínicas"',
             description: "🚀 **Introducción a Medi Ya** 🚀<br>¡Bienvenido a Medi Ya, nuestra plataforma de gestión de salud! En un mundo donde el tiempo es invaluable y la atención médica es esencial, hemos desarrollado una solución innovadora para abordar los desafíos comunes en la administración de consultas médicas y la atención al paciente.<br><br>🏥 **PROBLEMA** 🏥<br>La dificultad para conseguir turnos y la pérdida de la historia clínica del paciente son problemas que enfrentan tanto los profesionales de la salud como los pacientes. La falta de un sistema eficiente para gestionar la información médica puede generar inconvenientes y retrasos en la atención médica, lo que afecta negativamente la experiencia del paciente y la eficiencia de los profesionales de la salud.<br><br>💡 **NUESTRA SOLUCIÓN** 💡<br>Medi Ya ofrece una solución integral que permite a los usuarios profesionales gestionar sus perfiles y las historias clínicas de sus pacientes de manera eficiente. Los pacientes pueden acceder fácilmente a la plataforma para buscar profesionales por especialidad, agendar turnos y proporcionar información relevante para su atención médica.<br>Además, hemos incorporado funciones avanzadas que permiten a los profesionales de la salud visualizar la reputación de cada paciente, brindando una mayor confianza en la elección del médico.<br><br>🎯 **OBJETIVO** 🎯<br>Nuestro objetivo es mejorar la accesibilidad, eficiencia y calidad de la atención médica al proporcionar una plataforma intuitiva y segura que facilite la comunicación entre profesionales de la salud y pacientes, y optimice el proceso de gestión de consultas médicas.<br><br>¡Únete a nosotros en esta emocionante jornada para transformar la experiencia de la atención médica!",
-            technologies_backend: [ 
+            technologies_backend: [
                 "Java 8",
                 "Spring Boot 2.7.17",
                 "Maven",
@@ -97,14 +97,14 @@ export class ProjectService {
             'Maven',
             'PostgreSQL',
             'JWT'],
-            technologies_frontend: [ 
+            technologies_frontend: [
             'Whiskeysockets/Baileys',
             'NodeJs 18',
             'WhatsApp Business'],
             banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/wot_UlNVjLE1J.png',
-            url: 'https://wa.me/5493517620799',
+            url: '',
             url_video:'',
-            url_github:''
+            url_github:'https://github.com/antoluduenabereziuk21/DevBot'
         }
     ];
     constructor() { }
