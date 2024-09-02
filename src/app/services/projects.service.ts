@@ -103,9 +103,9 @@ export class ProjectService {
             'NodeJs 18',
             'WhatsApp Business'],
             banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/wot_UlNVjLE1J.png',
-            url:'',
+            url:'https://github.com/antoluduenabereziuk21/DevBot/',
             url_video:'',
-            url_github:'https://github.com/antoluduenabereziuk21/DevBot'
+            url_github:'https://github.com/antoluduenabereziuk21/DevBot/'
         }
     ];
     constructor() { }
