@@ -103,7 +103,7 @@ export class ProjectService {
             'NodeJs 18',
             'WhatsApp Business'],
             banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/wot_UlNVjLE1J.png',
-            url:'https://github.com/antoluduenabereziuk21/DevBot/',
+            url:'',
             url_video:'',
             url_github:'https://github.com/antoluduenabereziuk21/DevBot/'
         }
