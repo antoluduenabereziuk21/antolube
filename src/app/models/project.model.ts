@@ -8,5 +8,5 @@ export interface Project{
     banner:string,
     url:string,
     url_video:string,
-    url_github:string
+    github:string,
 }

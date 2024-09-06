@@ -30,7 +30,7 @@ export class ProjectService {
             banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/banner_TBDEQD2tS.png',
             url: 'https://cashier-app-23.netlify.app/login',
             url_video:'https://www.youtube.com/watch?v=HhMpTuKcwdA',
-            url_github:'https://github.com/antoluduenabereziuk21/CashierApp'
+            github:'https://github.com/antoluduenabereziuk21/CashierApp/',
         },
         {
             id: 2,
@@ -49,7 +49,7 @@ export class ProjectService {
             banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/appTrack_JkIfEPfW2.png',
             url: 'https://s12-15-t-java-react-ol6n.vercel.app/',
             url_video: '',
-            url_github:'https://github.com/antoluduenabereziuk21/Track-app-React-Java'
+            github:'https://github.com/antoluduenabereziuk21/Track-app-React-Java',
         },
         {
             id: 3,
@@ -62,7 +62,7 @@ export class ProjectService {
             banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/appnumerosecreto_32dvhbA2l.png',
             url: 'https://antoluduenabereziuk21.github.io/JuegoNumeroSecreto/',
             url_video:'',
-            url_github:'https://github.com/antoluduenabereziuk21/JuegoNumeroSecreto'
+            github:'https://github.com/antoluduenabereziuk21/JuegoNumeroSecreto/',
         },
         {
             id: 4,
@@ -80,7 +80,7 @@ export class ProjectService {
             banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/mediya_GUH9eMcvg.png',
             url: '',
             url_video:'',
-            url_github:'https://github.com/antoluduenabereziuk21/AppServiciosDeSalud'
+            github:'https://github.com/antoluduenabereziuk21/AppServiciosDeSalud/',
         },
         {
             id: 5,
@@ -105,8 +105,20 @@ export class ProjectService {
             banner: 'https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/wot_UlNVjLE1J.png',
             url:'https://github.com/antoluduenabereziuk21/DevBot/',
             url_video:'',
-            url_github:'https://github.com/antoluduenabereziuk21/DevBot/'
-        }
+            github:'https://github.com/antoluduenabereziuk21/DevBot/',
+        },
+        {
+            id: 6,
+            title: 'Mi Portafolio',
+            short_description: 'Portafolio desarrollado con Angular, mostrando proyectos destacados y habilidades en frontend y backend. Diseño responsivo y enfocado en la usabilidad.',
+            description: 'Portafolio desarrollado en Angular 17 utilizando una arquitectura modular, integrando diferentes módulos para mejorar la organización y mantenibilidad del código. Se ha implementado Bootstrap para garantizar un diseño responsivo y moderno. El portafolio destaca proyectos en frontend y backend, presentando habilidades en desarrollo full stack. El enfoque está en la usabilidad y la experiencia del usuario, con una estructura optimizada y escalable.',
+            technologies_backend: [],
+            technologies_frontend: ['Angular', 'HTML', 'CSS', 'Bootstrap','Deploy:GitHubPages'],
+            banner: 'https://ik.imagekit.io/dkyrnxtpj0h/antolube_2NhHzf2vk_TEoEminHz.webp',
+            url: '',
+            url_video:'',
+            github:'https://github.com/antoluduenabereziuk21/antolube/',
+        },
     ];
     constructor() { }
 
