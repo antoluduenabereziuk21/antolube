@@ -37,6 +37,10 @@ export class SkillService {
             image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/mysql_G69su1Fqi.png'
         },
         {
+            name:'MongoDB',
+            image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/mongodb-svgrepo-com_acQe9E64y.svg'
+        },
+        {
             name:'Postman',
             image:'https://ik.imagekit.io/dkyrnxtpj0h/assets/logos/postman_EOu3oQ9mSt.svg'
         },

@@ -26,12 +26,13 @@ export class ProjectsComponent implements OnInit{
       this.isInHome = isHome;
     });
     this.getProjects();
+
   }
 
   getProjects():void{
-    this._projectService.getProjects().subscribe((data:Project[])=>{
+    this._projectService.getAllProjects().subscribe((data:Project[])=>{
       this.projects = data;
-      console.log(data);
+      console.log('Proyectos en el componente:', this.projects)
     });
   }
   showProjectModal(event:MouseEvent,project: Project) {

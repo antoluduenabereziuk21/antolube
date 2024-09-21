@@ -21,7 +21,7 @@ export class ProjectDetailsComponentComponent implements OnInit{
     }
 
     getProjectDetails():void {
-      const id = Number(this.route.snapshot.paramMap.get('id'));
+      const id = String(this.route.snapshot.paramMap.get('id'));
       this._projectService.getProject(id).subscribe(project => this.project = project);
     }
 }
