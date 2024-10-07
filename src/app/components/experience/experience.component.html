@@ -1,1 +1,20 @@
-<p>experience works!</p>
+<h1 class="container">EXPERINCIA</h1>
+<div *ngFor="let experience of experiences" class="experience-item mb-4">
+    <div class="row experience-content">
+        <div class="col-md-6">
+            <h3>{{ experience.title }}</h3>
+            <a href="https://www.nocountry.tech/" target="_blank">
+                <span class="badge rounded-pill bg-success" style="font-size: 14px;">
+                    {{ experience.company }}
+                </span>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <span class="period">
+                {{ experience.start_date | date: 'MMM. yyyy' }} -
+                {{ experience.end_date ? (experience.end_date | date: 'MMM. yyyy') : 'Present' }}
+            </span>
+        </div>
+        <p>{{ experience.description }}</p>
+    </div>
+</div>
