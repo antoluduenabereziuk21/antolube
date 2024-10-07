@@ -8,46 +8,22 @@ import { of, Observable } from "rxjs";
 
 export class ExperienceService{
     experience: Experience[] = [
-        {
-          id: "1",
-          title: "Backend Developer",
-          company: "Tech Solutions",
-          description: "Developed and maintained REST APIs using Java and Spring Boot, ensuring high performance and scalability.",
-          start_date: new Date('2020-02-01'),
-          end_date: new Date('2022-05-30')
+      
+        {   "id":"1",
+            "title": "Freelance Programmer",
+            "company": "Autónomo",
+            "description": "Colaboré en el desarrollo del Servicio de Chat Bot, un proyecto enfocado en mejorar el proceso de venta de comida rápida. Mi contribución incluyó trabajar en equipo para diseñar la arquitectura y funcionalidades del bot, así como en la integración de servicios de mensajería para mejorar la experiencia del cliente. Actualmente, el proyecto está implementado y diseñado con un enfoque SaaS, lo que permite su expansión y adaptación a diversos procesos comerciales en el futuro. Las tecnologías utilizadas incluyen Node.js, Java Spring Boot, Baileys y WAWebSockets para la integración con WhatsApp, PostgreSQL para la gestión de datos, y JasperReports para la generación de reportes personalizados.",
+            "start_date": "2023-12-01",
+            "end_date": null
         },
-        {
-          id: "2",
-          title: "Full Stack Developer",
-          company: "Innovative Web",
-          description: "Worked on front-end (Angular) and back-end (Node.js) development for e-commerce platforms.",
-          start_date: new Date('2022-06-01'),
-          end_date: new Date('2023-08-30')
-        },
-        {
-          id: "3",
-          title: "Junior Software Engineer",
-          company: "Startup Inc.",
-          description: "Collaborated with cross-functional teams to develop new features and improve software quality.",
-          start_date: new Date('2018-09-15'),
-          end_date: new Date('2020-01-30')
-        },
-        {
-          id: "4",
-          title: "DevOps Engineer",
-          company: "Cloudy Tech",
-          description: "Automated deployment pipelines and managed cloud infrastructure using Docker and Kubernetes.",
-          start_date: new Date('2019-03-01'),
-          end_date: new Date('2021-01-15')
-        },
-        {
-          id: "5",
-          title: "Software Engineer Intern",
-          company: "Global Solutions",
-          description: "Assisted in the development of microservices and API integrations using Java and PostgreSQL.",
-          start_date: new Date('2017-06-01'),
-          end_date: new Date('2017-12-15')
+        {   "id":"",
+            "title": "Asistente Personal Bot",
+            "company": "Freelance",
+            "description": "Actualmente estoy desarrollando un bot asistente personal utilizando Node.js, Baileys y WAWebSockets para la integración con WhatsApp, junto con Bing AI para proporcionar respuestas inteligentes y contextuales. Mi objetivo es crear una solución que facilite la gestión de tareas diarias y mejore la productividad personal. Este proyecto está diseñado para adaptarse a las necesidades específicas del usuario, permitiendo una interacción fluida y efectiva.",
+            "start_date": "2024-08-29",
+            "end_date": null
         }
+    
       ];
       
     constructor(){}

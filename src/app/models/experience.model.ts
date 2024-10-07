@@ -3,6 +3,6 @@ export interface Experience{
     title:string;
     company:string;
     description:string;
-    start_date: Date;
-    end_date: Date;
+    start_date: string;
+    end_date: null;
 }

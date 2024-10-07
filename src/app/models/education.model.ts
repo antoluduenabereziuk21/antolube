@@ -4,6 +4,6 @@ export interface Education{
     institute:string;
     description:string;
     certificate_url:string;
-    start_date: Date;
-    end_date: Date;
+    start_date: string;
+    end_date: string;
 }
