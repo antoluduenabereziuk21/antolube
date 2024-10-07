@@ -7,6 +7,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { ProjectDetailsComponentComponent } from './project.details.component/project.details.component.component';
+import { EducationComponent } from './education/education.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 
 
@@ -18,7 +20,9 @@ import { ProjectDetailsComponentComponent } from './project.details.component/pr
     HomeComponent,
     ProjectsComponent,
     SkillsComponent,
-    ProjectDetailsComponentComponent
+    ProjectDetailsComponentComponent,
+    EducationComponent,
+    ExperienceComponent
   ],
   imports: [
     CommonModule,

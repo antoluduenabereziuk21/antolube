@@ -1,0 +1,32 @@
+.experience-item {
+    margin-top: 15px;
+    /* border-top: 1px solid white; Línea superior */
+    border-bottom: 1px solid white; /* Línea inferior */
+    padding: 20px 0; /* Separación interna para mayor claridad */
+    margin-bottom: 20px; /* Separación entre experiencias */
+  }
+  
+  .experience-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .period {
+    color: white; /* Cambia el color de las fechas a blanco */
+    font-weight: bold; /* Negrita para mayor visibilidad */
+    font-size: 16px; /* Tamaño de fuente ajustado */
+  }
+  
+  h3 {
+    margin-bottom: 10px; /* Espacio entre el título y el siguiente elemento */
+  }
+  
+  p {
+    margin-top: 15px;
+    color: #ddd; /* Un color gris claro para el texto descriptivo */
+  }
+  
+  h1{
+    font-size: 42px;
+  }

@@ -1,0 +1,33 @@
+.education-item {
+   margin-top: 15px;
+  /* border-top: 1px solid white; Línea superior */
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  
+  .period {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .badge {
+    font-size: 14px;
+    
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-top: 15px;
+    color: #ddd;
+  }
+  h1{
+    font-size: 42px;
+  }
+  .certificate-link {
+    display: inline-block;
+    text-decoration: none;
+  }

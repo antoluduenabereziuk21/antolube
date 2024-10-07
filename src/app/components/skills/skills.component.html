@@ -1,10 +1,59 @@
 <div class="container">
-    <div class="text-center color-white skill">
-        <h1>Habilidades</h1>
+    <div *ngIf="!isInHome">
+        <div class="text-center color-white skill">
+            <h1>Habilidades</h1>
+        </div>
+        <div class="container-description">  
+            <section>
+                <p>
+                    Mi experiencia en desarrollo backend se apoya en una variedad de herramientas tecnológicas modernas, que me permiten crear soluciones escalables y eficientes. He trabajado con diversas tecnologías que abarcan desde el backend hasta la integración con servicios en la nube, microservicios y bases de datos. Las principales herramientas con las que trabajo son:
+                </p>
+                
+                <h2>Tecnologías:</h2>
+                <ul class="no-bullets">
+                    <li><strong>Java</strong> ☕ con Spring Boot para crear aplicaciones robustas y seguras.</li>
+                    <li><strong>Node.js</strong> ⚡ para integraciones rápidas y eficientes, como la integración de servicios de mensajería.</li>
+                    <li><strong>PostgreSQL y MySQL</strong> 🗄️ para la gestión eficiente de bases de datos relacionales.</li>
+                    <li><strong>MongoDB</strong> 🌱 para el manejo de bases de datos no relacionales, ofreciendo flexibilidad en la gestión de datos estructurados y no estructurados.</li>
+                    <li><strong>Microservicios</strong> ⚙️ con Spring Cloud, Eureka (Netflix) y <strong>API Gateway</strong> para la gestión y orquestación de servicios distribuidos.</li>
+                    <li><strong>Seguridad</strong> 🔒 con JWT y OAuth2 para la autenticación y autorización seguras en aplicaciones.</li>
+                    <li><strong>Docker</strong> 🐋 y <strong>Docker Compose</strong> para la contenedorización y orquestación de microservicios.</li>
+                    <li><strong>Linux</strong> 🐧 como sistema operativo para el despliegue y administración de servidores y entornos de desarrollo.</li>
+                    <li><strong>Angular</strong> ⚛️ para el desarrollo de interfaces de usuario interactivas y responsivas.</li>
+                </ul>
+            
+                <h2>Habilidades blandas:</h2>
+                <ul class="no-bullets">
+                    <li><strong>Trabajo en equipo:</strong> 👥 Disfruto colaborar con otros profesionales, compartiendo ideas y conocimientos para alcanzar los objetivos comunes. Fomento una comunicación abierta y me aseguro de que cada miembro del equipo esté alineado con las metas del proyecto.</li>
+                    <li><strong>Comunicación efectiva:</strong> 📢 Me esfuerzo por explicar ideas complejas de manera clara y comprensible, facilitando la colaboración entre equipos técnicos y no técnicos.</li>
+                    <li><strong>Resolución de problemas:</strong> 🧩 Enfrento los desafíos con una mentalidad analítica, buscando soluciones eficientes que mejoren los sistemas a largo plazo.</li>
+                    <li><strong>Gestión del tiempo:</strong> ⏰ Priorizo tareas críticas y organizo mi trabajo de manera eficiente, garantizando el cumplimiento de plazos sin comprometer la calidad.</li>
+                    <li><strong>Adaptabilidad:</strong> 🌈 Me adapto rápidamente a nuevas tecnologías y metodologías, lo que me permite aprender continuamente y estar preparado para nuevos desafíos.</li>
+                </ul>
+            </section>
+        </div>
     </div>
+    <div *ngIf="isInHome" class="container-description">
+        <div class="text-center color-white skill">
+            <h1>Habilidades</h1>
+            <p>
+                Soy un desarrollador backend apasionado, con experiencia en <strong>Java</strong> y <strong>Node.js</strong>, así como en el manejo de bases de datos <strong>PostgreSQL</strong>, <strong>MySQL</strong> y <strong>MongoDB</strong>. Trabajo con <strong>microservicios</strong>, <strong>API Gateway</strong>, <strong>Eureka (Netflix)</strong>, y aplico <strong>seguridad</strong> utilizando <strong>JWT</strong> y <strong>OAuth2</strong>. Además, soy hábil en <strong>Docker</strong> y <strong>Linux</strong>.
+            </p>
+            <p>
+                En el ámbito de las habilidades blandas, valoro el <strong>trabajo en equipo</strong> y la <strong>comunicación efectiva</strong>. Me adapto rápidamente a nuevos desafíos y me enfoco en la <strong>resolución de problemas</strong> y la <strong>gestión del tiempo</strong> para cumplir con los objetivos del proyecto.
+            </p>
+            <div class="container">
+                <a class="btn btn-outline-dark" [routerLink]="['/skills']">Explora mis habilidades y descubre cómo puedo contribuir a tu equipo</a>
+            </div>
+            
+        </div>
+    </div>    
+    <div class="text-center color-white skill">
+            <h1>Herramientas</h1>
+        </div>
     <div class="row">
         <div *ngFor="let skill of skills" class="col">
-            <div class="card" >
+            <div class="card">
                 <img [src]="skill.image" class="card-img-top" alt="banner app">
                 <div class="card-body">
                     <p>{{skill.name}}</p>

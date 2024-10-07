@@ -1,31 +1,87 @@
-.skill{
-    margin:25px auto;
+.skill {
+    margin: 25px auto;
 }
-.container{
-    color:white;
-    margin: 25px auto ;
+
+.container {
+    color: white;
+    margin: 25px auto;
 }
- 
-.card{
-    background-color:black;
-    margin:0 5px 5px 5px;
+
+.card {
+    background-color: black;
+    margin: 0 5px 5px 5px;
     width: 7rem;
-    /* max-width: 900px; */
     justify-content: center;
     align-items: center;
-    color:white;
+    color: white;
 }
-.card img{
+
+.card img {
     width: 7em;
     height: 7em;
 }
+
 .card-body {
     justify-content: center;
     height: 3em; /* Altura fija para el cuerpo de la tarjeta */
     overflow: hidden; /* Ocultar el contenido si es más largo */
     text-overflow: ellipsis; /* Agregar puntos suspensivos para indicar contenido truncado */
 }
-.card:hover{
+
+.card:hover {
     transform: all 300ms;
     transform: scale(1.15);
 }
+
+.container-description {
+    text-align: left; /* Cambiado a left para mejor legibilidad */
+    padding: 20px;
+    color: white;
+    font-size: 20px; 
+    line-height: 1.8; /* Aumenta el espacio entre líneas */
+}
+
+.no-bullets {
+    list-style-type: none; /* Quita los puntos */
+    padding-left: 0; /* Quita la sangría por defecto */
+    margin: 20px 0; /* Agrega espacio arriba y abajo de la lista */
+}
+
+.no-bullets li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+
+.container-description{
+    text-align: center;
+    padding: 20px;
+    color:white;
+    font-size: 20px; 
+    line-height: 1.6;
+  }
+
+  .no-bullets {
+    list-style-type: none; /* Quita los puntos */
+    padding-left: 0; /* Quita la sangría por defecto */
+  }
+
+  .btn {
+    background-color: orange; /* Cambia el color de fondo a amarillo al pasar el cursor */
+    color: #000;
+    padding: 5px 5px; /* Relleno del botón */
+    border-radius: 5px; /* Añade bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  .btn:hover {
+    background-color: #000; /* Cambia el color de fondo a amarillo al pasar el cursor */
+    color: #474646;
+  }
+ li:hover {
+    transform: all 300ms;
+    transform: scale(1.15);
+    background-color: gray; /* Cambia el color de fondo a amarillo al pasar el cursor */
+    color: #000;
+    border-radius: 5px; /* Añade bordes redondeados */
+    cursor: pointer; 
+ }

@@ -1,5 +1,5 @@
 export interface Project{
-    id:number,
+    id:string,
     title:string,
     short_description:string,
     description:string,
@@ -8,5 +8,5 @@ export interface Project{
     banner:string,
     url:string,
     url_video:string,
-    url_github:string
+    github:string,
 }

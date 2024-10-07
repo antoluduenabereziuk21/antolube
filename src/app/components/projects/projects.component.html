@@ -1,25 +1,31 @@
 <div class="container container">
     <div class="text-center color-white project">
         <h1>Proyectos</h1>
-        <p *ngIf="!isInHome">
-            Explora mi mundo de innovación digital, donde cada proyecto es una pieza única que fusiona tecnología y
-            creatividad para transformar desafíos en soluciones impactantes. ¡Bienvenido a mi portafolio de creaciones,
-            donde cada línea de código cuenta una historia de éxito!<br />
-            <strong>Haz clic sobre las imágenes</strong>
-        </p>
+        <div *ngIf="!isInHome">
+            <h2>Bienvenido a mi <strong>portafolio</strong> de <strong>innovación digital</strong>,</h2>
+            <p>
+                donde cada proyecto es una fusión única de <strong>tecnología</strong> y
+                <strong>creatividad</strong>.<br>
+                Descubre cómo transformo <strong>desafíos</strong> en <strong>soluciones efectivas</strong> y cómo cada
+                línea de código cuenta una historia de <strong>éxito</strong>.<br>
+                ¡Explora haciendo clic en las imágenes!
+            </p>
+
+        </div>
     </div>
 
     <div class="row text-center">
         <div *ngFor="let project of projects" class="col-sm-4">
             <a [routerLink]="['/projects',project.id]">
                 <div class="card" style="width: 18rem; margin: 25px auto;">
-                        <img [src]="project.banner" class="card-img-top image-card" alt="banner app">
+                    <img [src]="project.banner" class="card-img-top image-card" alt="banner app">
                     <div class="card-body">
                         <h5 class="card-title">{{project.title}}</h5>
                         <p class="card-text">{{project.short_description}}</p>
                     </div>
                     <div class="card-footer d-flex">
-                        <img class="rounded-circle me-3 fit-cover" width="50" height="50" src="https://ik.imagekit.io/dkyrnxtpj0h/assets/antonio_XablVuz9j.jpeg">
+                        <img class="rounded-circle me-3 fit-cover" width="50" height="50"
+                            src="https://ik.imagekit.io/dkyrnxtpj0h/assets/antonio_XablVuz9j.jpeg">
                         <div>
                             <p class="fw-bold mb-0">Antonio Ludueña Bereziuk</p>
                             <p class="mb-0">Dev Backend</p>
