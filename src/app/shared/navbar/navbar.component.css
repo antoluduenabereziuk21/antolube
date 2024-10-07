@@ -3,6 +3,7 @@
   }
   .navbar-nav {
     margin-left: auto; /* Mueve los elementos al final del navbar */
+    padding: auto;
   }
 
   .offcanvas{

@@ -13,3 +13,12 @@
     font-size: 18px; 
     line-height: 1.6;
 }
+
+.btn{
+    background-color: orange; /* Cambia el color de fondo a amarillo al pasar el cursor */
+    color: #000;
+}
+.btn:hover {
+   background-color: #000; /* Cambia el color de fondo a amarillo al pasar el cursor */
+  color: #474646;
+}

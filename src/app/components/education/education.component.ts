@@ -37,7 +37,6 @@ closeModal() {
 getEducations():void{
   this._educationService.getEducations().subscribe((data:Education[])=>{
     this.educationList = data;
-    console.log('Proyectos en el componente:', this.educationList)
   })
 }
 }

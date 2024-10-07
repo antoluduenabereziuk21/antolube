@@ -32,14 +32,11 @@ export class ProjectsComponent implements OnInit{
   getProjects():void{
     this._projectService.getAllProjects().subscribe((data:Project[])=>{
       this.projects = data;
-      console.log('Proyectos en el componente:', this.projects)
     });
   }
   showProjectModal(event:MouseEvent,project: Project) {
     event.preventDefault(); // Evita la acción de redireccionamiento
-    console.log("estoy disparando el evento para el proyecto"+project.title)
     this.selectedProject = project;
-    console.log(this.selectedProject.title+"el titulo del proyecto seleccionado")
   }
 
   closeProjectModal() {

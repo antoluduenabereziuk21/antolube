@@ -23,7 +23,6 @@ export class ExperienceComponent implements OnInit {
   getExperiences():void{
     this._experienceService.getExperiences().subscribe((data:Experience[])=>{
       this.experiences = data;
-      console.log('Proyectos en el componente:', this.experiences)
     })
   }
 }
