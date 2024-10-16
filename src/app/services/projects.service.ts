@@ -124,7 +124,7 @@ projects: Project[] = [
                 "WhatsApp Business"
             ],
             "banner": "https://ik.imagekit.io/dkyrnxtpj0h/assets/banners/wot_UlNVjLE1J.png",
-            "url": "https://github.com/antoluduenabereziuk21/DevBot/",
+            "url": "https://wa.me/5493516818521",
             "url_video": "",
             "github": "https://github.com/antoluduenabereziuk21/DevBot/"
         },
